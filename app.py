@@ -91,4 +91,4 @@ def get_temp_by_date_range(start, end):
 # Flask Run
 #################################################
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host "0.0.0.0", port=80, debug=False)
